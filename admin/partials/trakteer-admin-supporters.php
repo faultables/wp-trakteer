@@ -23,7 +23,7 @@ if ( ! defined( 'WPINC' )) {
                     <?php foreach ( $data['result']['data'] as $item ): ?>
                         <tr>
                             <td>
-                                <?php echo esc_html( $item['creator_name'] ?? 'Seseorang' ); ?>
+                                <?php echo esc_html( $item['supporter_name'] ?? 'Seseorang' ); ?>
                             </td>
                             <td>
                                 <?php echo esc_html( $item['support_message'] ?? '-' ); ?>
