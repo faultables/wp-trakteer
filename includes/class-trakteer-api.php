@@ -1,6 +1,6 @@
 <?php
 
-class Trakteer_API
+class Trakteer_Api
 {
     private $api_key;
     private $base_url = 'https://api.trakteer.id/v1/public';
