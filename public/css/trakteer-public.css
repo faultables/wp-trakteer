@@ -1,0 +1,10 @@
+.trbtn-overlay-container {
+    z-index: 1337;
+}
+
+.trbtn-overlay-container.floating-center {
+    position: fixed;
+    bottom: 20px;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+}
