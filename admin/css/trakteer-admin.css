@@ -1,0 +1,35 @@
+.wp-menu-image.dashicons-before img {
+    width: 18px;
+}
+
+.trakteer-container {
+    max-width: 600px;
+}
+
+.trakteer-list {
+    list-style-type: square;
+    margin-left: 1.5rem;
+}
+
+.trakteer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.trakteer-table th,
+.trakteer-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.trakteer-table tbody tr {
+    background-color: #fff;
+}
+
+.trakteer-form__description {
+    max-width: 600px;
+    line-height: 1.6;
+    padding-top: 5px;
+}
