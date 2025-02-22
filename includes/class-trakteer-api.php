@@ -34,7 +34,7 @@ class Trakteer_Api
         $response = get_transient( $cache_key );
 
         if ( false === $response ) {
-            $url = $this->base_url . "/transactions?limit={$limit}&page={$page}";
+            $url = $this->base_url . "/supports?limit={$limit}&page={$page}";
 
             $headers = [
                 'X-Requested-With' => 'XMLHttpRequest',

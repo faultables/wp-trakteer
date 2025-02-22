@@ -16,9 +16,7 @@ if ( ! defined( 'WPINC' )) {
                         <th>Pesan</th>
                         <th>Unit</th>
                         <th>Total</th>
-                        <th>Via</th>
                         <th>Waktu</th>
-                        <th>Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -40,9 +38,6 @@ if ( ! defined( 'WPINC' )) {
                                 ); ?> IDR/unit)
                             </td>
                             <td>
-                                <?php echo esc_html( $item['payment_method'] ); ?>
-                            </td>
-                            <td>
                                 <?php
                                 $updated_at = strtotime( $item['updated_at'] );
 
@@ -51,13 +46,6 @@ if ( ! defined( 'WPINC' )) {
                                     $updated_at
                                 );
                                 ?>
-                            </td>
-                            <td>
-                                <a target="_blank" rel="noopener noreferrer" class="button-secondary" href="<?php echo esc_url( $this->base_url ); ?>/payment-status/<?php echo esc_html(
-                                    $item['order_id']
-                                ); ?>">
-                                    Informasi Pembayaran
-                                </a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
